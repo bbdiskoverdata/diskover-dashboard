@@ -35,7 +35,7 @@ pip install streamlit pandas plotly fpdf pillow
 2. Place `Diskover_Dashboard_App.py` (and optionally `Diskover_Banner.png`) in your project folder.
 3. Run the app:
    ```bash
-   streamlit run Diskover_Dashboard_App.py
+   python -m streamlit run Diskover_Dashboard_App.py
    ```
 4. Open `http://localhost:8501` in your browser.
 5. Upload your CSV file exported from Diskover.
